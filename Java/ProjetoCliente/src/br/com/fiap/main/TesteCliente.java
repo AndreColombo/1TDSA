@@ -11,12 +11,14 @@ public class TesteCliente {
         // Entradas
         objCliente.setIdade(17);
         objCliente.setNome("André Rosa Colombo");
-        objCliente.setAltura(1.70);
+        objCliente.setEmail("rm563112@fiap.com.br");
+        objCliente.setRenda(8750);
 
         // Saída
         // sout
-        System.out.println("Idade: "+objCliente.getIdade());
-        System.out.println("Nome: "+objCliente.getNome());
-        System.out.println("Altura: "+objCliente.getAltura());
+        System.out.println("Idade: " + objCliente.getIdade());
+        System.out.println("Nome: " + objCliente.getNome());
+        System.out.println("Email: " + objCliente.getEmail());
+        System.out.println("Renda: R$" + objCliente.getRenda());
     }
 }
