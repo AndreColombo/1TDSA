@@ -1,0 +1,62 @@
+/* SINTAXE DO CSS
+
+    seletor{
+        propriedade: valor;
+        propriedade: valor;
+    }
+
+*/
+
+/* Seletor de tag
+ul{
+    list-style-type: none;
+} */
+nav {
+  border: 1px solid #000;
+  width: 150px;
+  height: 153px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0; /* Margem externa */
+  padding: 0; /* Margem interna */
+  background-color: aqua;
+}
+
+nav ul li {
+  border-bottom: 1px solid #000;
+  height: 30px;
+}
+
+nav ul li a {
+  border-left: 8px solid #ff0;
+  padding-left: 15px;
+  text-decoration: none;
+  line-height: 30px;
+  display: block;
+  color: #f00;
+}
+
+nav ul li a:hover {
+  background-color: chartreuse;
+  border-left: 8px solid #00f;
+  color: #000;
+}
+
+nav ul li:last-child {
+  border-bottom: none;
+}
+
+/* Seletor de Classe */
+.disc {
+  list-style-type: disc;
+}
+
+.circle {
+  list-style-type: circle;
+}
+
+.square {
+  list-style-type: square;
+}
