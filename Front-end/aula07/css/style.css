@@ -1,0 +1,117 @@
+* {
+  /* 
+    margin - refere a margem externa do elemento
+    primeiro valor 0: aplicará as margens: top e bottom
+    segundo valor auto: aplicará as margens: right e left
+
+    padding - refere a margem interna do elemento
+  */
+  margin: 0 auto;
+  padding: 0;
+  color: #393939;
+}
+
+#wrapper {
+  min-width: 100%;
+  height: 3000px;
+  background-color: aqua;
+}
+
+.content {
+  width: 93%;
+}
+
+/* INÍCIO DO HEADER */
+header {
+  width: 100%;
+  height: 92px;
+  background-color: #414141;
+}
+
+.header {
+  width: 50%;
+  height: 60px;
+  float: left;
+  margin: 0;
+  font-size: 13px;
+}
+
+.header_esq {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.header_dir {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+}
+
+.header_esq a {
+  margin: 0;
+  text-decoration: none;
+}
+
+.header_esq span {
+  margin: 14px 0 0 0;
+  color: #fff;
+}
+
+.header_dir span {
+  margin: 0 10px 0 0;
+  color: #fff;
+}
+
+.logo {
+  padding: 0 8px;
+  margin: 0;
+  border-left: 3px solid #c72803;
+}
+
+.titulo {
+  font-size: 30px;
+  color: #fff;
+}
+
+#menuPrincipal {
+  width: 100%;
+  height: 32px;
+  background-color: #c72803;
+  clear: both;
+}
+
+#menuPrincipalItens {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+#menuPrincipalItens li {
+  float: left;
+  margin-left: 10px;
+}
+
+#menuPrincipalItens li a {
+  height: 32px;
+  padding: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#menuPrincipalItens li:hover {
+  background-color: #414141;
+}
+/* FINAL DO HEADER
+
+/* INÍCIO DO CARROSSEL */
+#imageContainer {
+  width: 100%;
+  height: 300px;
+  background: #ff0;
+}
