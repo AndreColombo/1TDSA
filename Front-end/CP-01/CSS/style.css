@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow-x: hidden;
+
+  background-color: #000000;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 9%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+
+  user-select: none;
+
+  font-size: x-large;
+  font-weight: 100;
+  color: white;
+}
+
+main {
+  width: 95%;
+  height: fit-content;
+
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+
+  padding: 8px;
+
+  margin-bottom: 32px;
+}
+
+.linha-tabela {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+.wrapper-linha {
+  width: fit-content;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  gap: 4px;
+}
+
+.elemento {
+  width: 72px;
+  aspect-ratio: 1.1/1.15;
+
+  user-select: none;
+
+  border: 2px solid black;
+
+  box-sizing: border-box;
+
+  margin: 0;
+  font-weight: bolder;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  border-radius: 5px;
+}
+
+.elemento .numero_atomico {
+  align-self: flex-start;
+}
+.elemento h2 {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.elemento p {
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+}
+.elemento p:nth-child(1) {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.elemento.ele-verde {
+  border: 2px solid #758047;
+}
+.elemento.ele-verde p,
+.elemento.ele-verde h2 {
+  color: #99a764;
+}
+
+.elemento.ele-azul {
+  border: 2px solid #54879f;
+}
+.elemento.ele-azul p,
+.elemento.ele-azul h2 {
+  color: #71abc6;
+}
+
+.elemento.ele-laranja {
+  border: 2px solid #967d4c;
+}
+.elemento.ele-laranja p,
+.elemento.ele-laranja h2 {
+  color: #b2965e;
+}
+
+.elemento.ele-amarelo {
+  border: 2px solid #e3e95e;
+}
+.elemento.ele-amarelo p,
+.elemento.ele-amarelo h2 {
+  color: #f3fa72;
+}
+
+.elemento.ele-rosa {
+  border: 2px solid #e2abb6;
+}
+.elemento.ele-rosa p,
+.elemento.ele-rosa h2 {
+  color: #f4c2cc;
+}
+
+.elemento.ele-azul-bebe {
+  border: 2px solid #609f95;
+}
+.elemento.ele-azul-bebe p,
+.elemento.ele-azul-bebe h2 {
+  color: #7dbcb2;
+}
+
+.elemento.ele-azul-claro {
+  border: 2px solid #8bb0c1;
+}
+.elemento.ele-azul-claro p,
+.elemento.ele-azul-claro h2 {
+  color: #9ec2d3;
+}
+
+.elemento.ele-prata {
+  border: 2px solid #b2b8b7;
+}
+.elemento.ele-prata p,
+.elemento.ele-prata h2 {
+  color: #cacfce;
+}
+
+.elemento.ele-roxo {
+  border: 2px solid #bea3b7;
+}
+.elemento.ele-roxo p,
+.elemento.ele-roxo h2 {
+  color: #bea3b7;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: white;
+
+  font-weight: bold;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  user-select: none;
+}
