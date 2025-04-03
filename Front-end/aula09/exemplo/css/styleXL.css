@@ -1,0 +1,15 @@
+/* eXtra Large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    background-color: #2200ff;
+  }
+  .tituloXS,
+  .tituloSM,
+  .tituloMD,
+  .tituloLG {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+}
