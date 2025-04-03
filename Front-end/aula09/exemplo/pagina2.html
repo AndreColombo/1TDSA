@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styleGlobal.css" />
+    <link rel="stylesheet" href="css/styleXS.css" />
+    <link rel="stylesheet" href="css/styleSM.css" />
+    <link rel="stylesheet" href="css/styleMD.css" />
+    <link rel="stylesheet" href="css/styleLG.css" />
+    <link rel="stylesheet" href="css/styleXL.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="tituloXS">Tamanho de tela XS</h1>
+    <h1 class="tituloSM">Tamanho de tela SM</h1>
+    <h1 class="tituloMD">Tamanho de tela MD</h1>
+    <h1 class="tituloLG">Tamanho de tela LG</h1>
+    <h1 class="tituloXL">Tamanho de tela XL</h1>
+
+    <picture>
+      <source srcset="../img/slider01_320.png" media="(max-width: 599.9px)" />
+      <source srcset="../img/slider01_480.png" media="(min-width: 600px) and (max-width: 991.9px)" />
+      <source srcset="../img/slider01_600.png" media="(min-width: 992px) and (max-width: 1199.9px)" />
+      <img src="../img/slider01.png" alt="" />
+    </picture>
+  </body>
+</html>
