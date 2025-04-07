@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Trabalhando com formulários</h1>
+    <form name="frmCadatro">
+      <label><u>N</u>ome: <input type="text" name="nome" tabindex="1" accesskey="n" required /></label>
+      <br />
+      <label for="dataNascimento">Data de na<u>s</u>cimento: </label>
+      <input type="date" name="dataNascimento" id="dataNascimento" tabindex="2" accesskey="s" min="2000-01-01" max="2025-04-07" />
+      <br />
+      <label
+        >Email:
+        <input type="email" />
+      </label>
+      <br />
+      <label
+        >CPF:
+        <input type="text" name="cpf" maxlength="14" placeholder="123.456.789-00" />
+      </label>
+      <br />
+      <label>Talefone: <input type="tel" name="telefone" id="telefone" /></label>
+      <br />
+      <label
+        >Dependentes:
+        <input type="number" name="dependentes" id="dependentes" min="0" max="10" />
+      </label>
+      <br />
+      <label>Senha: <input type="password" name="password" id="password" /></label>
+      <br />
+      <label
+        >Anexo:
+        <input type="file" name="anexo" id="anexo" accept="image/*" />
+      </label>
+      <br />
+      <label
+        >Gênero:
+        <label><input type="radio" name="genero" id="Masc" value="M" />Masculino</label>
+        <label><input type="radio" name="genero" id="Fem" value="F" />Feminino</label>
+        <label><input type="radio" name="genero" id="Outro" value="O" />Outro</label>
+      </label>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
