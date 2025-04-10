@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Trabalhando com formulários</h1>
+    <form name="frmCadatro">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label><u>N</u>ome: <input type="text" name="nome" tabindex="1" accesskey="n" required /></label>
+        <br />
+        <label for="dataNascimento">Data de na<u>s</u>cimento: </label>
+        <input type="date" name="dataNascimento" id="dataNascimento" tabindex="2" accesskey="s" min="2000-01-01" max="2025-04-07" />
+        <br />
+        <label
+          >Data e HORA do nascimento:
+          <input type="datetime-local" name="dataHoraNascimento" id="dataHoraNascimento" />
+        </label>
+        <br />
+        <label
+          >Email:
+          <input type="email" />
+        </label>
+        <br />
+        <label
+          >CPF:
+          <input type="text" name="cpf" maxlength="14" placeholder="123.456.789-00" />
+        </label>
+        <br />
+        <label>Talefone: <input type="tel" name="telefone" id="telefone" /></label>
+        <br />
+        <label
+          >Dependentes:
+          <input type="number" name="dependentes" id="dependentes" min="0" max="10" />
+        </label>
+        <br />
+        <label>Senha: <input type="password" name="password" id="password" /></label>
+        <br />
+        <label
+          >Anexo:
+          <input type="file" name="anexo" id="anexo" accept="image/*" />
+        </label>
+        <br />
+        <label
+          >Gênero:
+          <label><input type="radio" name="genero" id="Masc" value="M" />Masculino</label>
+          <label><input type="radio" name="genero" id="Fem" value="F" />Feminino</label>
+          <label><input type="radio" name="genero" id="Outro" value="O" />Outro</label>
+        </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Endereço para Correspondência</legend>
+        <label
+          >Endereço:
+          <input type="text" name="endereco" id="endereco" />
+        </label>
+        <br />
+        <label
+          >Estado:
+          <select name="estado">
+            <option value="" selected>Selecione</option>
+            <!--OPTion GROUP-->
+            <optgroup label="Região  Centro-Oeste">
+              <option value="GO">Goiás</option>
+            </optgroup>
+            <optgroup label="Região Nordeste">
+              <option value="PE">Pernambuco</option>
+              <option value="SE">Sergipe</option>
+            </optgroup>
+            <optgroup label="Região Norte">
+              <option value="AC">Acre</option>
+            </optgroup>
+            <optgroup label="Região Sudeste">
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="SP">São Paulo</option>
+            </optgroup>
+            <optgroup label="Região Sul">
+              <option value="PR">Paraná</option>
+              <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+          </select></label
+        >
+      </fieldset>
+      <br />
+      <label>Hora: <input type="time" name="hora" id="hora" /></label>
+      <br />
+      <label
+        >Áreas de Interesse:
+        <br />
+        <input type="checkbox" name="Tech" id="Tech" value="Tech" checked /><label for="Tech">Tecnologia</label>
+        <input type="checkbox" name="Fut" id="Fut" value="Fut" /><label for="Fut">Futebol</label>
+        <input type="checkbox" name="Filmes" id="Filmes" value="Filmes" /><label for="Filmes">Filmes</label>
+      </label>
+      <br />
+      <label
+        >Cor favorita:
+        <input type="color" name="corFavorita" id="corFavorita" />
+      </label>
+      <br />
+      <label
+        >Volume:
+        <input type="range" name="vol" id="vol" min="0" max="100" />
+      </label>
+      <br />
+      <label
+        >ID:
+
+        <input type="text" name="id" id="id" value="456867" readonly disabled />
+        <input type="text" name="id1" id="id1" value="456867" hidden />
+      </label>
+      <br />
+      <label
+        >Sugestões/Críticas
+        <textarea name="sugestoes" id="sugestoes" cols="100" rows="10"></textarea>
+      </label>
+      <br />
+      <label
+        >Navegadores:
+        <input list="browsers" />
+        <datalist id="browsers">
+          <option value="Internet Explorer"></option>
+          <option value="Google Chrome">Chrome</option>
+          <option value="Microsoft Edge">Edge</option>
+          <option value="Firefox">Firefox</option>
+        </datalist>
+      </label>
+      <br />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
