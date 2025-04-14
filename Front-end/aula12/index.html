@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cadastro de empresa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <div class="titulo titulo-cabecalho">Sistema de Gerenciamento de Empresas</div>
+      </div>
+    </header>
+    <div class="principal">
+      <div class="container">
+        <div class="titulo-principal">Cadastrar Empresa</div>
+        <form name="formulario" method="post" action="">
+          <table class="tabela">
+            <tr class="titulo-tabela">
+              <td>código</td>
+              <td>Tipo de Empresa</td>
+              <td>CRT</td>
+              <td>CNPJ</td>
+              <td>Insc. Est.</td>
+              <td>Insc. Municipal</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" name="txtcodigo" class="campo" readonly />
+              </td>
+              <td>
+                <input type="text" name="txttipoempresa" class="campo" />
+              </td>
+              <td>
+                <input type="text" name="txtcrt" class="campo" />
+              </td>
+              <td>
+                <input type="text" name="txtcnpj" class="campo" />
+              </td>
+              <td>
+                <input type="text" name="txtinscricaoestadual" class="campo" />
+              </td>
+              <td>
+                <input type="text" name="txtinscricaomunicipal" class="campo" />
+              </td>
+            </tr>
+
+            <tr class="titulo-tabela">
+              <td colspan="3">Nome Fantasia</td>
+              <td colspan="3">Razão Social</td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <input type="text" name="txtnomefantasia" class="campo" />
+              </td>
+              <td colspan="3">
+                <input type="text" name="txtrazaosocial" class="campo" />
+              </td>
+            </tr>
+            <tr class="titulo-tabela">
+              <td>CEP</td>
+              <td colspan="4">Endereço</td>
+              <td>Número</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" name="txtcep" class="campo" />
+              </td>
+              <td colspan="4">
+                <input type="text" name="txtendereco" class="campo" />
+              </td>
+              <td>
+                <input type="text" name="txtnumero" class="campo" />
+              </td>
+            </tr>
+            <tr class="titulo-tabela">
+              <td colspan="2">Complemento</td>
+              <td colspan="2">Bairro</td>
+              <td>Cidade</td>
+              <td>Estado</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="text" name="txtcomplemento" class="campo" />
+              </td>
+              <td colspan="2">
+                <input type="text" name="txtbairro" class="campo" />
+              </td>
+              <td>
+                <input type="text" name="txtcidade" class="campo" />
+              </td>
+              <td>
+                <select class="campo">
+                  <option>Selecione um estado</option>
+                </select>
+              </td>
+            </tr>
+            <tr class="titulo-tabela">
+              <td colspan="2">Responsável</td>
+              <td colspan="2">E-mail</td>
+              <td>Telefone</td>
+              <td>Fax</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="text" name="txtresponsavel" class="campo" />
+              </td>
+              <td colspan="2">
+                <input type="text" name="txtemail" class="campo" />
+              </td>
+              <td>
+                <input type="text" name="txttelefone" class="campo" />
+              </td>
+              <td>
+                <input type="text" name="txtfax" class="campo" />
+              </td>
+            </tr>
+            <tr class="titulo-tabela">
+              <td colspan="6">Data de criação</td>
+            </tr>
+            <tr>
+              <td colspan="6">
+                <input type="date" name="txtresponsavel" class="campo" />
+              </td>
+            </tr>
+            <tr class="titulo-tabela">
+              <td colspan="3">Senha</td>
+              <td colspan="3">Confirmação da senha</td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <input type="password" name="txtresponsavel" class="campo" />
+              </td>
+              <td colspan="3">
+                <input type="password" name="txtemail" class="campo" />
+              </td>
+            </tr>
+            <tr class="titulo-tabela">
+              <td colspan="6">Tipo de Empresa</td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="radio" name="rdioTipo" class="campor" />Sociedade Empresária Limitada</td>
+              <td colspan="2"><input type="radio" name="rdioTipo" class="campor" />MEI</td>
+              <td colspan="2"><input type="radio" name="rdioTipo" class="campor" />Sociedade Simples</td>
+            </tr>
+            <tr class="titulo-tabela">
+              <td colspan="6">Ramo de Atuação</td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="checkbox" name="chkRamo" class="campor" />Internet</td>
+              <td colspan="2"><input type="checkbox" name="chkRamo" class="campor" />Confecção</td>
+              <td colspan="2"><input type="checkbox" name="chkRamo" class="campor" />Metalúrgica</td>
+            </tr>
+          </table>
+          <input type="submit" value="Cadastrar Empresa" class="botao" />
+        </form>
+      </div>
+    </div>
+    <footer class="rodape">
+      <div class="container">
+        <div class="titulo titulo-rodape">&copyTodos os direitos reservados</div>
+      </div>
+    </footer>
+  </body>
+</html>
