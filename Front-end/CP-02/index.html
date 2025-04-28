@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>CHECKPOINT 02</h1>
+    </header>
+    <main>
+      <h2>Fomulário de Cadastro</h2>
+      <form>
+        <div class="form-linha-cima">
+          <div class="form-linha-cima-esquerda">
+            <fieldset id="fieldset-identificacao">
+              <legend>Identificação</legend>
+              <label id="input-nome-completo"
+                >Nome Completo: * <br />
+                <input type="text" name="nome" tabindex="1" required />
+              </label>
+              <div class="column-identificacao-nums">
+                <label class="half-identificacao"
+                  >RG: *
+                  <input type="text" name="rg" tabindex="2" required />
+                </label>
+                <label class="half-identificacao"
+                  >CPF: *
+                  <input type="text" name="cpf" tabindex="2" required />
+                </label>
+              </div>
+              <div class="column-identificacao-bio">
+                <label id="input-data-nascimento"
+                  >Data de Nascimento: *
+                  <input type="date" name="nascimento" tabindex="3" required />
+                </label>
+                <label id="input-identificacao-sexo"
+                  >Sexo: *
+                  <div class="inputs-radio-sexo">
+                    <input type="radio" name="sexo" id="Masculino" value="Masculino" /><label for="Masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="Feminino" value="Feminino" /><label for="Feminino">Feminino</label>
+                    <input type="radio" name="sexo" id="Outros" value="Outros" /><label for="Outros">Outros</label>
+                  </div>
+                </label>
+              </div>
+              <div class="column-identificacao-senhas">
+                <label class="half-identificacao"
+                  >Senha: *
+                  <input type="password" name="" value="" />
+                </label>
+                <label class="half-identificacao"
+                  >Confirmação da Senha: *
+                  <input type="password" name="" value="" />
+                </label>
+              </div>
+              <label
+                >Email: *
+                <input type="email" name="" value="" />
+              </label>
+            </fieldset>
+          </div>
+          <div class="form-linha-cima-direita">
+            <fieldset>
+              <legend>Fotografia</legend>
+              <img src="Images/profile.png" alt="" />
+              <label id="enviar-arquivo-label" for="profile-enviar-none">Enviar Arquivo</label>
+              <input id="enviar-arquivo-none" type="file" name="profile-enviar-arquivo" value="Enviar arquivo" />
+            </fieldset>
+            <fieldset id="dependentes">
+              <legend>Dependentes</legend>
+              <label for="dependentes"> Dependentes: * </label>
+              <input type="number" required name="dependentes" />
+            </fieldset>
+          </div>
+        </div>
+        <fieldset id="form-endereco">
+          <legend>Endereço</legend>
+          <div class="enderecoPRAbaixo">
+            <label>
+              Rua: *
+              <input class="full_rua" type="text" name="rua" required />
+            </label>
+            <label>
+              Número: *
+              <input type="text" name="numero" required />
+            </label>
+            <label>
+              Complemento: *
+              <input type="text" name="complemento" required />
+            </label>
+          </div>
+          <div class="endereco-linha-inferior">
+            <label>
+              Bairro: *
+              <input type="text" name="bairro" required />
+            </label>
+            <label>
+              Cidade: *
+              <input type="text" name="Cidade" required />
+            </label>
+            <label>
+              Estado: *
+              <select name="estado" id="estado">
+                <optgroup label="Região Norte">
+                  <option value="AC">Acre</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="PR">Pará</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="TO">Tocantis</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                  <option value="AL">Alagoas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="PA">Paraíba</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piaui</option>
+                  <option value="RN">Rio Grande Do Norte</option>
+                  <option value="SE">Sergipe</option>
+                </optgroup>
+                <optgroup label="Região Centro-Oeste">
+                  <option value="DF">Distrito Federal</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+                <optgroup label="Região ">
+                  <option value="ES">Espírito Santo</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região ">
+                  <option value="PA">Paraná</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="RS">Rio Grande Do Sul</option>
+                </optgroup>
+              </select>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="diversos">
+          <legend>Diversos</legend>
+          <fieldset class="form-areas-de-interesse">
+            <legend>Áreas de Interesse</legend>
+            <label for="Tecnologia">
+              <input type="checkbox" name="Tecnologia" id="Tecnologia" value="Tecnologia" />
+              Tecnologia
+            </label>
+            <label for="Esportes">
+              <input type="checkbox" name="Esportes" id="Esportes" value="Esportes" />
+              Esportes
+            </label>
+            <label for="Outros">
+              <input type="checkbox" name="Outros" id="Outros" value="Outros" />
+              Outros
+            </label>
+          </fieldset>
+          <fieldset class="form-cor-preferencia">
+            <legend>Cor de Preferência</legend>
+            <input type="color" />
+          </fieldset>
+        </fieldset>
+        <fieldset>
+          <legend>Mensagem</legend>
+          <textarea name="sugestoes" id="sugestoes" cols="100" rows="10"></textarea>
+        </fieldset>
+        <div class="form-botoes">
+          <button class="cancelar">Cancelar</button>
+          <button class="enviar">Enviar</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <h5>© André Colombo - RM563112 | José Diogo - RM562341 | Pedro Miranda - RM562682</h5>
+    </footer>
+  </body>
+</html>
