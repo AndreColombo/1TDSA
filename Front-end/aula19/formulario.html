@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body id="corpo">
+    <form>
+      <div>
+        <label>Nome: </label>
+        <input type="text" name="nome" id="nome" />
+        <span id="erroNome" class="erro"></span>
+      </div>
+      <div>
+        <label>CPF: </label>
+        <input type="text" name="cpf" id="cpf" />
+        <span id="erroCPF" class="erro"></span>
+      </div>
+      <div>
+        <button type="button" onclick="validar()">Enviar</button>
+        <button type="button" onclick="cancelar()">Cancelar</button>
+      </div>
+    </form>
+  </body>
+</html>
