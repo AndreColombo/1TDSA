@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        width: 910px;
+        height: 910px;
+        background-color: #ff0;
+        position: relative;
+      }
+      #quadro {
+        width: 50px;
+        height: 50px;
+        background-color: #f00;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button" onclick="mover()">Botão</button>
+    <div id="container">
+      <div id="quadro"></div>
+    </div>
+    <script>
+      function mover() {
+        var quadro = document.getElementById("quadro");
+        var Y = 0;
+        var X = 0;
+        x = setInterval(movimentar, 1);
+
+        function movimentar() {
+          if (Y < 860 && X == 0) {
+            // clearInterval(x);
+            Y++;
+            quadro.style.top = Y + "px";
+          }
+
+          if (Y == 860 && X < 860) {
+            X++;
+            quadro.style.left = X + "px";
+          }
+
+          if (X == 860 && Y > 0) {
+            Y--;
+            quadro.style.top = Y + "px";
+          }
+
+          if (Y == 0 && X > 0) {
+            X--;
+            quadro.style.left = X + "px";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
