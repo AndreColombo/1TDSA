@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function contar() {
+        palavras = document.getElementById("campo").value;
+        letras = document.getElementById("campo").value;
+        palavras = palavras.split(" ");
+        palavras = palavras.length;
+        letras = letras.length;
+        document.getElementById("palavras").innerText = palavras;
+        document.getElementById("letras").innerText = letras;
+      }
+
+      function trocar(x) {
+        x = x.replace(/  /, " ");
+        document.getElementById("campo").value = x;
+      }
+    </script>
+  </head>
+  <body>
+    <form name="frm">
+      <textarea name="campo" id="campo" onkeypress="contar()" onblur="trocar(this.value)"></textarea>
+    </form>
+    <div><span id="palavras"></span> Palavra</div>
+    <div><span id="letras"></span> Caracteres</div>
+  </body>
+</html>

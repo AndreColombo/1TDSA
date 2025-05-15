@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="result"></div>
+    <script>
+      var nome = new Array();
+      var texto = "";
+
+      nome[0] = "Alguém";
+      nome[1] = "José";
+      nome[2] = "Maria";
+      nome[3] = "Marcos";
+      nome[4] = "Joana";
+
+      nome.sort(); // ordena um array em ordem crescente
+      nome.reverse(); // inverte a ordem do array - do maior para o menor índice
+
+      for (i = 0; i < nome.length; i++) {
+        texto = texto + nome[i] + " ";
+      }
+
+      document.getElementById("result").innerText = texto;
+    </script>
+  </body>
+</html>
