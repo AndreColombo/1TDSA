@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="position: relative">
+    <button id="btnAndar" onclick="andar()">Andar</button>
+    <br />
+    <img id="dog" style="position: absolute" src="img/cachorro_parado.gif" alt="" />
+    <script>
+      function andar() {
+        btnAndar = document.getElementById("btnAndar");
+        btnAndar.innerText = "Andando...";
+        btnAndar.disabled = true;
+        var dog = document.getElementById("dog");
+        var X = 0;
+        var i = 0;
+        var movimento = setInterval(movimentar, 5);
+        dog.src = "img/cachorro_andando_direita.gif";
+        function movimentar() {
+          if (X >= 0 && i < 1300) {
+            X++;
+            i++;
+            dog.style.left = X + "px";
+          }
+
+          if (X <= 1300 && i == 1300) {
+            dog.src = "img/cachorro_andando_esquerda.gif";
+            X--;
+            dog.style.left = X + "px";
+          }
+          if (X == 0) {
+            clearInterval(movimento);
+            dog.src = "img/cachorro_parado.gif";
+            btnAndar.innerText = "Parado";
+            btnAndar.disabled = false;
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
