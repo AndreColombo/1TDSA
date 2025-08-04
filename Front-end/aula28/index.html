@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label
+        >Nome:
+        <input type="text" name="nome" id="nome" />
+      </label>
+      <label
+        >Senha:
+        <input type="password" name="senha" id="senha" />
+      </label>
+      <input type="button" onclick="Gravar()" value="Gravar" />
+      <p id="msg"></p>
+    </form>
+  </body>
+  <script>
+    const nomeSalvo = localStorage.getItem("nome");
+    if (nomeSalvo) {
+      document.getElementById("msg").textContent = `Olá, ${nomeSalvo}`;
+    }
+    function Gravar() {
+      var nome = document.getElementById("nome").value;
+      var senha = document.getElementById("senha").value;
+
+      if (nome == "abc" && senha == "123") {
+        localStorage.logado = "true";
+        localStorage.nome = nome;
+        window.location.href = "perfil.html";
+      } else {
+        document.getElementById("msg").textContent = "Usuário e/ou senha incorretos";
+      }
+      //   localStorage.setItem("nome", nome);
+      //   localStorage.senha = senha;
+      //   alert(nome);
+    }
+  </script>
+</html>

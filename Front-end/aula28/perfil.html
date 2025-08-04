@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const logado = localStorage.getItem("logado");
+      if (!logado) {
+        window.location.href = "index.html";
+      }
+    </script>
+    <p id="msg"></p>
+    <script>
+      const nomeSalvo = localStorage.getItem("nome");
+      if (nomeSalvo) {
+        document.getElementById("msg").textContent = `Olá, ${nomeSalvo}`;
+      }
+    </script>
+  </body>
+</html>
