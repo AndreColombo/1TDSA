@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="msg"></p>
+    <input type="button" value="Sair" onclick="sair()" />
+    <script>
+      const logado = sessionStorage.getItem("logado");
+      const usuario = localStorage.getItem("usuario");
+
+      if (!logado) {
+        window.location.href = "login.html?erro=restrito"; // Redireciona para login.html e enviando um parâmetro de erro
+      } else {
+        document.getElementById("msg").textContent = `Bem-vindo, ${usuario}!`;
+      }
+
+      function sair() {
+        sessionStorage.removeItem("logado"); // Remove o item de sessão
+        localStorage.removeItem("usuario"); // Remove o usuário do localStorage
+        window.location.href = "login.html"; // Redireciona para login.html
+      }
+    </script>
+  </body>
+</html>

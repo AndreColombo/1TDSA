@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="usuario">Usuário:</label>
+      <input type="text" id="usuario" name="usuario" required />
+      <br />
+      <input type="submit" value="Enviar" onclick="enviarFormulario()" />
+      <p id="msg"></p>
+    </form>
+    <script>
+      const nomeLocal = localStorage.getItem("nome");
+      function enviarFormulario() {
+        localStorage.nome = document.getElementById("usuario").value;
+        event.preventDefault(); // Impede o envio do formulário
+        document.getElementById("usuario").value = ""; // Limpa o campo de entrada
+
+        if (nomeLocal) {
+          document.getElementById("msg").innerText = `Olá, ${nomeLocal}!`; // Interpolação de string 'Olá ' + nomeLocal + '!'
+        }
+      }
+    </script>
+  </body>
+</html>

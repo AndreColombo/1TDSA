@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="usuario">Usuário:</label>
+      <input type="text" id="usuario" name="usuario" value="admin" placeholder="Usuário" required />
+      <br />
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" value="123" placeholder="Senha" required />
+      <br />
+      <input type="submit" value="Enviar" onclick="validar()" />
+    </form>
+    <p id="msg"></p>
+    <script>
+      if (sessionStorage.getItem("logado")) {
+        window.location.href = "perfil.html"; // Redireciona para perfil.html se já estiver logado
+      }
+      const params = new URLSearchParams(window.location.search);
+      const erro = params.get("erro");
+      if (erro == "restrito") {
+        document.getElementById("msg").textContent = "Acesso restrito! Por favor, faça login.";
+      }
+      function validar() {
+        event.preventDefault(); // Impede o envio do formulário
+
+        const usuario = document.getElementById("usuario").value;
+        const senha = document.getElementById("senha").value;
+
+        if (usuario == "admin" && senha == "123") {
+          localStorage.setItem("usuario", usuario);
+          sessionStorage.setItem("logado", true);
+          window.location.href = "perfil.html"; // Redireciona para perfil.html
+        } else {
+          document.getElementById("msg").innerHTML = "Usuário e/ou senha incorretos!";
+          // document.getElementById('msg').textContent = 'Usuário e/ou senha incorretos!';
+        }
+      }
+    </script>
+  </body>
+</html>

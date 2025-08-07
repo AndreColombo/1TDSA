@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required />
+      <br />
+      <input type="submit" value="Enviar" onclick="Gravar()" />
+      <p id="msg"></p>
+    </form>
+    <script>
+      const nomeLocal = localStorage.getItem("nome");
+      function Gravar() {
+        event.preventDefault(); // Impede o envio do formulário
+
+        const nome = document.getElementById("nome").value;
+        const email = document.getElementById("email").value;
+        const telefone = document.getElementById("telefone").value;
+
+        sessionStorage.setItem("nome", nome);
+        sessionStorage.setItem("email", email);
+        sessionStorage.setItem("telefone", telefone);
+
+        document.getElementById("nome").value = ""; // Limpa o campo de entrada
+
+        if (nomeLocal) {
+          document.getElementById("msg").innerText = `Olá, ${nomeLocal}!`; // Interpolação de string 'Olá ' + nomeLocal + '!'
+        }
+      }
+    </script>
+  </body>
+</html>
