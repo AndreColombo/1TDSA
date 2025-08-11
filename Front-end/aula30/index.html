@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+      <br />
+      <input type="submit" value="Enviar" onclick="enviarFormulario()" />
+      <input type="button" value="Limpar" onclick="localStorage.removeItem('nome'); sessionStorage.clear();" />
+      <p id="msg"></p>
+    </form>
+    <script>
+      function enviarFormulario() {
+        nomeLocal = localStorage.getItem("nome");
+
+        nome = document.getElementById("nome").value;
+        event.preventDefault(); // Impede o envio do formulário
+        // alert(`Olá, ${nome}`);
+        // localStorage para armazenar o nome
+        localStorage.setItem("nome", nome);
+        sessionStorage.setItem("nomeSessao", nome);
+        nomeSessao = sessionStorage.getItem("nomeSessao");
+
+        if (nomeSessao) {
+          document.getElementById("msg").innerText = `Olá, ${nomeSessao}!`;
+        }
+      }
+    </script>
+  </body>
+</html>
