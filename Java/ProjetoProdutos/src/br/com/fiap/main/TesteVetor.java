@@ -1,0 +1,46 @@
+package br.com.fiap.main;
+
+import br.com.fiap.beans.Produto;
+
+import javax.swing.*;
+
+public class TesteVetor {
+    static String texto(String j) {
+        return JOptionPane.showInputDialog(j);
+    }
+
+    static int inteiro(String j) {
+        return Integer.parseInt(JOptionPane.showInputDialog(j));
+    }
+
+    static double real(String j) {
+        return Double.parseDouble(JOptionPane.showInputDialog(j));
+    }
+
+    public static void main(String[] args) {
+        // Preparar a quantidade máxima de vetores
+        Produto[] vetorProduto = new Produto[3];
+
+        // Preparar o indice inciando com o valor de 0
+        int indice = 0;
+
+        // Laço de repetição      do   / while
+        //                        faça / enquanto
+        do {
+            // Entrada
+            vetorProduto[indice] = new Produto();
+            vetorProduto[indice].setCodigo(inteiro("Código"));
+            vetorProduto[indice].setTipo(texto("Tipo:"));
+            vetorProduto[indice].setMarca(texto("Marca:"));
+            vetorProduto[indice].setDescricao(texto("Descrição:"));
+            vetorProduto[indice].setValor(real("Valor:"));
+
+            indice++;
+        } while (JOptionPane.showConfirmDialog(null, "Adicionar mais produtos no carrinho de compras?", "CARRINHO DE COMPRAS", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE) == 0);
+
+        // Saídas utilizando o for
+        for (int buscar = 0; buscar < indice; buscar++) {
+            System.out.println("\n\nCódigo: " + vetorProduto[buscar].getCodigo() + "\nTipo: " + vetorProduto[buscar].getTipo() + "\nMarca: " + vetorProduto[buscar].getMarca() + "\nDescrição: " + vetorProduto[buscar].getDescricao() + "\nValor: " + vetorProduto[buscar].getValor());
+        }
+    }
+}
