@@ -107,6 +107,7 @@ public class MediaSemestre {
         return gs * 60 / 100;
     }
 
+    // mediaSemestral
     public double mediaSemestral() {
         return pontosGs() + pontosCpsSprints();
     }
