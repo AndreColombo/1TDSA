@@ -67,8 +67,8 @@ public class MediaSemestre {
 
     // calcularMediaCps
     public double calcularMediaCps() {
-        double parcial = cp1 + cp2;
-        return parcial / 2;
+        double soma = cp1 + cp2;
+        return soma / 2;
     }
 
     // pontosCps
@@ -80,8 +80,8 @@ public class MediaSemestre {
 
     // calcularMediaSprints
     public double calcularMediaSprints() {
-        double parcial = sprint1 + sprint2;
-        return parcial / 2;
+        double soma = sprint1 + sprint2;
+        return soma / 2;
     }
 
     // pontosSprints
@@ -93,8 +93,8 @@ public class MediaSemestre {
 
     //mediaCpsSprints
     public double mediaCpsSprints() {
-        double parcial = calcularMediaCps() + calcularMediaSprints();
-        return parcial / 2;
+        double soma = calcularMediaCps() + calcularMediaSprints();
+        return soma / 2;
     }
 
     // pontosCpsSprints
