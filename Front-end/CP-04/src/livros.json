@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "titulo": "Dom Casmurro",
+    "categoria": "Literatura Brasileira",
+    "sinopse": "Em Dom Casmurro, o narrador Bento Santiago retoma a infância que passou na Rua de Matacavalos e conta a história do amor e das desventuras que viveu com Capitu, uma das personagens mais enigmáticas e intrigantes da literatura brasileira. Nas páginas deste romance, encontra-se a versão de um homem perturbado pelo ciúme, que revela aos poucos sua psicologia complexa e enreda o leitor em sua narrativa ambígua acerca do acontecimento ou não do adultério da mulher com olhos de ressaca, uma das maiores polêmicas da literatura brasileira.",
+    "num_paginas": 208,
+    "autor": "Machado de Assis",
+    "capa": "capa_dom_casmurro.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "O Cortiço",
+    "categoria": "Literatura Brasileira",
+    "sinopse": "Pobreza, corrupção, injustiça, traição são elementos integram O cortiço, principal obra do Naturalismo brasileiro. Nela, Aluísio Azevedo denuncia as mazelas sociais enfrentadas pelos moradores de um cortiço no Rio de Janeiro no século XIX. É um romance que convida a analisar por meio da observação crítica do cotidiano das personagens a animalização do ser humano, questão que se mostra, mais do que nunca, atual.",
+    "num_paginas": 224,
+    "autor": "Aluísio Azevedo",
+    "capa": "capa_o_cortico.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "categoria": "Literatura Brasileira",
+    "sinopse": "Narrado em primeira pessoa pelo próprio defunto, Brás Cubas nos explica, logo nas primeiras páginas, que teve uma ideia fixa: criar um emplasto anti-hipocondríaco que serviria para aliviar a melancolia humana. A partir daí, o relato se desenrola em fatos e divagações sobre momentos e sentimentos cultivados pelo autor ao longo de sua existência, como sua infância e seu amor por Virgília.",
+    "num_paginas": 288,
+    "autor": "Machado de Assis",
+    "capa": "capa_memorias_postumas.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Notas do Subsolo",
+    "categoria": "Filosofia",
+    "sinopse": "Alienado da sociedade e paralisado pelo peso da própria insignificância, o narrador deste livro conta a história de sua conturbada vida. Com fina ironia, ele relata sua recusa em se tornar mais um trabalhador e seu gradual exílio da sociedade que o cerca.",
+    "num_paginas": 184,
+    "autor": "Fiódor Dostoiévski",
+    "capa": "capa_notas_subsolo.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Noites Brancas",
+    "categoria": "Filosofia",
+    "sinopse": "Durante uma das maravilhosas 'noites brancas' do verão de São Petersburgo, em que o sol praticamente não se põe, dois jovens se encontram numa ponte sobre o rio Nievá, dando início a uma história carregada de fantasia, emoção e lirismo. Não por acaso, a história foi adaptada para o cinema por diretores do porte de Luchino Visconti e Robert Bresson.",
+    "num_paginas": 96,
+    "autor": "Fiódor Dostoiévski",
+    "capa": "capa_noites_brancas.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Crime e Castigo",
+    "categoria": "Filosofia",
+    "sinopse": "Raskólnikov, um jovem estudante, pobre e desesperado, perambula pelas ruas de São Petersburgo até cometer um crime que tentará justificar por uma teoria: grandes homens, como César ou Napoleão, foram assassinos absolvidos pela História.",
+    "num_paginas": 592,
+    "autor": "Fiódor Dostoiévski",
+    "capa": "capa_crime_e_castigo.jpg"
+  }
+]
