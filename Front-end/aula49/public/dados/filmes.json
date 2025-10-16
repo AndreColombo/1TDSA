@@ -1,0 +1,421 @@
+[
+    {
+        "id": 823464,
+        "titulo": "Godzilla e Kong: O Novo Império",
+        "link": "godzilla-e-kong-o-novo-imperio",
+        "imagem": "fWSGD2yrzz6hscocnMD8AEXIThk.webp",
+        "nota": 7.1,
+        "genero": [
+            "Ação",
+            "Ficção Científica"
+        ],
+        "descricao": "Godzilla e Kong unem forças contra uma ameaça colossal escondida no interior da Terra, desafiando sua própria existência. Neste épico confronto, criaturas lendárias e segredos ancestrais se revelam enquanto o destino da humanidade pende por um fio. Prepare-se para batalhas monumentais, descobertas surpreendentes e um espetáculo visual que redefine o gênero de ação e ficção científica.",
+        "estreia": "14 de março de 2024",
+        "duracao": "2h15m",
+        "trailler": "https://www.youtube.com/embed/va-7FEpUHVQ",
+        "lancamento": false
+    },
+    {
+        "id": 1011985,
+        "titulo": "Kung Fu Panda 4",
+        "link": "kung-fu-panda-4",
+        "imagem": "kDp1vUBnMpe8ak4rjgl3cLELqjU.webp",
+        "nota": 7.0,
+        "genero": [
+            "Animação",
+            "Comédia",
+            "Aventura"
+        ],
+        "descricao": "Po precisa encontrar um sucessor como Dragão Guerreiro enquanto enfrenta uma nova vilã capaz de invocar inimigos do passado. A animação traz visuais vibrantes, humor e cenas de ação acrobáticas. A trilha conta com Hans Zimmer e Steve Mazzaro, que retornam à franquia. A jornada de Po explora legado, liderança e passagem de bastão dentro da tradição kung fu. ",
+        "estreia": "08 de março de 2024",
+        "duracao": "1h33m",
+        "trailler": "https://www.youtube.com/embed/cEAxQE9Xqdg",
+        "lancamento": true
+    },
+    {
+        "id": 11228,
+        "titulo": "Oppenheimer",
+        "link": "oppenheimer",
+        "imagem": "1OsQJEoSXBjduuCvDOlRhoEUaHu.webp",
+        "nota": 8.3,
+        "genero": [
+            "Histórico",
+            "Drama"
+        ],
+        "descricao": "Biografia de J. Robert Oppenheimer e seu papel no Projeto Manhattan para desenvolver a bomba atômica. A direção de Christopher Nolan combina narrativa densa com tensão política e dilemas morais. O elenco traz Cillian Murphy, Robert Downey Jr. e Matt Damon em interpretações premiadas. O filme mescla ciência, tragédia e consequências humanas em uma produção épica e emotiva. ",
+        "estreia": "20 de julho de 2023",
+        "duracao": "3h0m",
+        "trailler": "https://www.youtube.com/embed/ILAwV65XuGA",
+        "lancamento": false
+    },
+    {
+        "id": 438631,
+        "titulo": "Duna",
+        "link": "duna",
+        "imagem": "obhGsx4PE9OzsVGtIfoLAIIWGNb.webp",
+        "nota": 8.0,
+        "genero": [
+            "Ficção Científica",
+            "Aventura"
+        ],
+        "descricao": "Em um futuro distante, Paul Atreides chega ao planeta desértico Arrakis para proteger a especiaria mais valiosa do universo. Ele enfrenta intrigas políticas e guerras tribais em meio a gigantescos vermes de areia. Dirigido por Denis Villeneuve, o filme combina visuais épicos, trilha sonora imersiva e narrativa filosófica. É um épico de ficção científica sobre poder, destino e ecologia. ",
+        "estreia": "21 de outubro de 2021",
+        "duracao": "2h35m",
+        "trailler": "https://www.youtube.com/embed/U_SsfAp_F9Y",
+        "lancamento": false
+    },    
+    {
+        "id": 634649,
+        "titulo": "Spider-Man: Across the Spider-Verse",
+        "link": "spider-man-across-the-spider-verse",
+        "imagem": "8Vt6mWEReuy4Of61Lnj5Xj704m8.webp",
+        "nota": 8.4,
+        "genero": [
+            "Ação",
+            "Animação",
+            "Aventura"
+        ],
+        "descricao": "Miles Morales retoma a vida duplamente como estudante e Homem-Aranha. Ao cruzar diferentes dimensões do multiverso, encontra novos aliados e também inimigos surpreendentes. A animação mistura visuais arrojados com narrativa emocional, explorando temas de identidade e responsabilidade. A jornada pessoal de Miles é testada por perigos interdimensionais e escolhas difíceis.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/frJyVXO1XWc",
+        "duracao": "2h10m",
+        "estreia": "02/06/2023"
+    },
+    {
+        "id": 76600,
+        "titulo": "Avatar: The Way of Water",
+        "link": "avatar-the-way-of-water",
+        "imagem": "t6HIqrRAclMCA60NsSmeqe9RmNV.webp",
+        "nota": 7.7,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Fantasia"
+        ],
+        "descricao": "Jake Sully e Neytiri agora formam uma família em Pandora, mas devem enfrentar novos perigos do passado. A história se aprofunda nas tribos marinhas de Pandora e revela novos ambientes deslumbrantes. Questões como paternidade, sacrifício e preservação ambiental ganham destaque. Efeitos visuais imersivos completam a narrativa emocionante.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/yXPWsdT43YE",
+        "duracao": "3h12m",
+        "estreia": "16/12/2022"
+    },
+    {
+        "id": 505642,
+        "titulo": "Black Panther: Wakanda Forever",
+        "link": "black-panther-wakanda-forever",
+        "imagem": "sv1xJUazXeYqALzczSZ3O6nkH75.webp",
+        "nota": 7.3,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Fantasia"
+        ],
+        "descricao": "Após a perda de T’Challa, Wakanda enfrenta um momento de luto e incerteza. A rainha Ramonda assume a liderança em meio a pressões externas e internas. Um novo adversário emerge, exigindo união e coragem. O filme aborda temas como legado, identidade e empoderamento.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/_Z3QKkl1WyM",
+        "duracao": "2h41m",
+        "estreia": "11/11/2022"
+    },
+    {
+        "id": 808095,
+        "titulo": "Thor: Love and Thunder",
+        "link": "thor-love-and-thunder",
+        "imagem": "pIkRyD18kl4FhoCNQuWxWu5cBLM.webp",
+        "nota": 6.8,
+        "genero": [
+            "Ação",
+            "Comédia",
+            "Fantasia"
+        ],
+        "descricao": "Thor, em busca de paz, reencontra Jane Foster, que agora carrega o poder de Thor. Juntos, devem enfrentar Gorr, que busca a extinção dos deuses. O filme mistura cenas de ação intensas com humor ácido típico da franquia. A jornada emocional de Jane é o ponto central, abordando temas como dignidade e mortalidade.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/tgB1wUcmbbw",
+        "duracao": "1h59m",
+        "estreia": "08/07/2022"
+    },
+    {
+        "id": 882569,
+        "titulo": "M3GAN",
+        "link": "m3gan",
+        "imagem": "d9nBoowhjiiYc4FBNtQkPY7c11H.webp",
+        "nota": 6.8,
+        "genero": [
+            "Terror",
+            "Mistério",
+            "Ficção Científica"
+        ],
+        "descricao": "Uma boneca inteligente criada por IA se torna amiga — e protetora — de uma menina órfã. O vínculo entre elas fica cada vez mais sinistro à medida que M3GAN se torna extrema em suas ações. O suspense cresce com cenas impactantes e momentos de humor negro. O filme questiona até onde a tecnologia pode ir em nome do afeto.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/9zvgGSTZlOY",
+        "duracao": "1h45m",
+        "estreia": "07/01/2023"
+    },
+    {
+        "id": 460489,
+        "titulo": "Mortal Kombat",
+        "link": "mortal-kombat-2021",
+        "imagem": "6Wdl9N6dL0Hi0T1qJLWSz6gMLbd.webp",
+        "nota": 6.7,
+        "genero": [
+            "Ação",
+            "Fantasia",
+            "Aventura"
+        ],
+        "descricao": "Um jovem lutador descobre poderes sobrenaturais e herda a responsabilidade de proteger a Terra. Ele ingressa no torneio Mortal Kombat, onde deve enfrentar adversários mortais. A trama combina sangue, lutas coreografadas e elementos místicos. A adaptação é fiel ao espírito violento e estilizado dos games.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/NYH2sLid0Zc",
+        "duracao": "1h50m",
+        "estreia": "15/04/2021"
+    },
+    {
+        "id": 10138,
+        "titulo": "Fast X",
+        "link": "fast-x",
+        "imagem": "fiVW06jE7z9YnO4trhaMEdclSiC.webp",
+        "nota": 7.0,
+        "genero": [
+            "Ação",
+            "Crime",
+            "Aventura"
+        ],
+        "descricao": "Dom Toretto e sua equipe enfrentam uma ameaça ligada ao seu passado. Velozes carros, perseguições intensas e cenas insanas não faltam. O filme expande a escala familiar da franquia com cores vibrantes e piadas típicas. Apesar da ação exagerada, traz momentos de sentimentalismo entre os protagonistas.",
+        "lancamento": true,
+        "trailler": "https://www.youtube.com/embed/eoOaKN4qCKw",
+        "duracao": "2h20m",
+        "estreia": "17/05/2023"
+    },
+    {
+        "id": 646389,
+        "titulo": "Scream VI",
+        "link": "scream-vi",
+        "imagem": "wDWwtvkRRlgTiUr6TyLSMX8FCuZ.webp",
+        "nota": 5.9,
+        "genero": [
+            "Terror",
+            "Suspense"
+        ],
+        "descricao": "Sobreviventes do massacre de Woodsboro recomeçam em Nova York. Porém, o assassino Ghostface retorna com novas motivações brutais. A ambientação urbana confere um tom mais claustrofóbico ao susto. As dinâmicas entre personagens antigos e novos fornecem tensão e reviravoltas.",
+        "lancamento": true,
+        "trailler": "https://www.youtube.com/embed/1Ie2qmAOc6Q",
+        "duracao": "1h38m",
+        "estreia": "08/03/2023"
+    },
+    {
+        "id": 238,
+        "titulo": "O Poderoso Chefão II",
+        "link": "o-poderoso-chefao-ii",
+        "imagem": "7g6wvsWHxBQujUcSXvZLhdFpDUy.webp",
+        "nota": 9.2,
+        "genero": [
+            "Crime",
+            "Drama"
+        ],
+        "descricao": "Um retrato épico de poder, família e traição dentro da máfia ítalo-americana. O patriarca Vito Corleone vê seu império passar para seu filho Michael, que reluta em assumir. A transformação de Michael é retratada com maestria, mostrando o peso da herança e da moral. O filme é considerado um marco no gênero de dramas criminais.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/sY1S34973zA",
+        "duracao": "2h55m",
+        "estreia": "24/03/1972"
+    },
+    {
+        "id": 155,
+        "titulo": "Jurassic Park",
+        "link": "jurassic-park",
+        "imagem": "63viWuPfYQjRYLSZSZNq7dglJP5.webp",
+        "nota": 8.1,
+        "genero": [
+            "Aventura",
+            "Ficção Científica"
+        ],
+        "descricao": "Cientistas usam DNA de dinossauros para recriar criaturas pré-históricas em uma ilha isolada. Uma falha no sistema de segurança transforma o parque em uma zona de caos e perigo. O suspense e os efeitos visuais inovadores espantaram o público em 1993. A obra questiona até onde vai a ambição humana.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/QWBKEmWWL38",
+        "duracao": "2h7m",
+        "estreia": "11/06/1993"
+    },
+    {
+        "id": 27205,
+        "titulo": "A Origem",
+        "link": "a-origem",
+        "imagem": "edv5CZvWj09upOsy2Y6IwDhK8bt.webp",
+        "nota": 8.8,
+        "genero": [
+            "Ação",
+            "Ficção Científica",
+            "Thriller"
+        ],
+        "descricao": "Dom Cobb é um ladrão que entra no subconsciente das pessoas para roubar segredos. Sua missão mais arriscada é plantar uma ideia, e não retirá-la. A jornada explora camadas oníricas e distorce a percepção da realidade. O thriller psicológico é cheio de tensão e sequências visuais impactantes.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/YoHD9XEInc0",
+        "duracao": "2h28m",
+        "estreia": "16/07/2010"
+    },
+    {
+        "id": 424,
+        "titulo": "Mulan",
+        "link": "mulan-1998",
+        "imagem": "bj3iSjLlkwHtJrPmvHXa8P7edI9.webp",
+        "nota": 7.0,
+        "genero": [
+            "Aventura",
+            "Drama",
+            "Família"
+        ],
+        "descricao": "Mulan se disfarça de homem para se alistar no exército em lugar do pai idoso. Ela enfrenta duro treinamento, batalha com coragem e honra. Sua jornada representa sacrifício e amor filial. O filme mistura ação, emoção e músicas memoráveis.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/AwGR5H4-ryY",
+        "duracao": "1h28m",
+        "estreia": "19/06/1998"
+    },
+    {
+        "id": 497,
+        "titulo": "Missão Impossível – Fallout",
+        "link": "missao-impossivel-fallout",
+        "imagem": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.webp",
+        "nota": 7.8,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Thriller"
+        ],
+        "descricao": "Ethan Hunt embarca em uma corrida contra o tempo para recuperar armas nucleares roubadas. Reuniões com antigos aliados e inimigos complicam a missão. As sequências de ação são intensas, com saltos de paraquedas e combates mano a mano. O filme equilibra adrenalina e moralidade duvidosa.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/FTjuC70Q5Zs",
+        "duracao": "2h27m",
+        "estreia": "27/07/2018"
+    },
+    {
+        "id": 272,
+        "titulo": "Batman Begins",
+        "link": "batman-begins",
+        "imagem": "4MpN4kIEqUjW8OPtOQJXlTdHiJV.webp",
+        "nota": 8.2,
+        "genero": [
+            "Ação",
+            "Crime",
+            "Drama"
+        ],
+        "descricao": "Bruce Wayne retorna a Gotham após anos no exterior e decide combater o crime disfarçado de vigilante. Ele enfrenta a Liga das Sombras e aprende os limites da justiça. A narrativa traz origem e motivação do herói, além de tensão psicológica. A representação realista de Bruce reinventa o gênero de super-heróis.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/lirBhHXvDSg",
+        "duracao": "2h20m",
+        "estreia": "15/06/2005"
+    },
+    {
+        "id": 603,
+        "titulo": "O Senhor dos Anéis: O Retorno do Rei",
+        "link": "o-senhor-dos-aneis-o-retorno-do-rei",
+        "imagem": "rCzpDGLbOoPwLjy3OAm5NUPOTrC.webp",
+        "nota": 8.9,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Fantasia"
+        ],
+        "descricao": "A batalha final pela Terra-Média começa enquanto Frodo e Sam se aproximam de Mordor. Aragorn reivindica seu destino como rei de Gondor. Cenários grandiosos e personagens épicos culminam em conclusão emocionante. O filme encerra a saga com propósito, sacrifício e redenção.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/r5X-hFf6Bwo",
+        "duracao": "3h21m",
+        "estreia": "17/12/2003"
+    },
+    {
+        "id": 497,
+        "titulo": "Missão Impossível – Protocolo Fantasma",
+        "link": "missao-impossivel-protocolo-fantasma",
+        "imagem": "19vTKySZasegBjQFfdawcY0HBPc.webp",
+        "nota": 7.4,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Thriller"
+        ],
+        "descricao": "Hunt e sua equipe são acusados de ataque terrorista e precisam agir sem apoio oficial. A invasão ao Kremlin e a perseguição no Dubai elevam o ritmo. O enredo mistura espionagem, tecnologia e redenção pessoal. É um dos filmes mais aclamados da franquia por trazer espetáculo global.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/0bICaZn6t48",
+        "duracao": "2h13m",
+        "estreia": "16/12/2011"
+    },
+    {
+        "id": 299534,
+        "titulo": "Vingadores: Ultimato",
+        "link": "vingadores-ultimato",
+        "imagem": "or06FN3Dka5tukK1e9sl16pB3iy.webp",
+        "nota": 8.3,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Ficção Científica"
+        ],
+        "descricao": "Após o estalo de Thanos, os heróis remanescentes partem em uma missão épica pelo tempo. Sacrifícios são feitos para reverter o caos universal. O filme entrega emoção, humor e conclusão impactante para a Saga do Infinito. É um ponto máximo do universo Marvel até hoje.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/TcMBFSGVi1c",
+        "duracao": "3h1m",
+        "estreia": "26/04/2019"
+    },
+    {
+        "id": 299536,
+        "titulo": "Vingadores: Guerra Infinita",
+        "link": "vingadores-guerra-infinita",
+        "imagem": "7WsyChQLEftFiDOVTGkv3hFpyyt.webp",
+        "nota": 8.4,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Ficção Científica"
+        ],
+        "descricao": "Os Vingadores e aliados enfrentam Thanos em uma batalha épica para proteger as Joias do Infinito. O filme é repleto de ação, humor e momentos emocionantes. A narrativa entrelaça várias histórias e personagens, culminando em um clímax devastador.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/6ZfuNTqbHE8",
+        "duracao": "2h29m",
+        "estreia": "27/04/2018"
+    },
+    {
+        "id": 299537,
+        "titulo": "Vingadores: A Era de Ultron",
+        "link": "vingadores-a-era-de-ultron",
+        "imagem": "4ssDuvEDkSArWEdyBl2X5EHvYKU.webp",
+        "nota": 7.3,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Ficção Científica"
+        ],
+        "descricao": "Os Vingadores enfrentam Ultron, uma inteligência artificial que ameaça a humanidade. O filme apresenta novos heróis e desenvolve relacionamentos entre os personagens. A ação é intensa, com sequências memoráveis e diálogos espirituosos.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/tmeOjFno6Do",
+        "duracao": "2h21m",
+        "estreia": "01/05/2015"
+    },
+    {
+        "id": 299538,
+        "titulo": "Vingadores",
+        "link": "vingadores",
+        "imagem": "RYMX2wcKCBAr24UyPD7xwmjaTn.webp",
+        "nota": 8.0,
+        "genero": [
+            "Ação",
+            "Aventura",
+            "Ficção Científica"
+        ],
+        "descricao": "Os heróis mais poderosos da Terra se unem para enfrentar Loki e sua ameaça alienígena. O filme combina ação, humor e desenvolvimento de personagens. É um marco no universo cinematográfico Marvel, estabelecendo o padrão para filmes de super-heróis.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/QDvbNyl5xnA",
+        "duracao": "2h23m",
+        "estreia": "04/05/2012"
+    },
+    {
+        "id": 603692,
+        "titulo": "Furiosa: Uma Saga Mad Max",
+        "link": "furiosa-uma-saga-mad-max",
+        "imagem": "iADOJ8Zymht2JPMoy3R7xceZprc.webp",
+        "nota": 7.1,
+        "genero": [
+            "Ação",
+            "Drama",
+            "Ficção Científica"
+        ],
+        "descricao": "Furiosa, ainda criança, sobrevive nas duras terras desérticas e se torna líder de um grupo de refugiados. Ela desafia os domínios do Senhor da Guerra Immortan Joe e busca seu destino. O filme tem como tema redenção, coragem e empoderamento feminino. Cenas de perseguição são intensas e viscerais.",
+        "lancamento": false,
+        "trailler": "https://www.youtube.com/embed/HQOQTNVdxb8",
+        "duracao": "2h5m",
+        "estreia": "24/05/2024"
+    }
+]
