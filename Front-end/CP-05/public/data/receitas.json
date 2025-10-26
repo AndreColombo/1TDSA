@@ -1,0 +1,621 @@
+[
+  {
+    "link": "torradas_amanteigadas",
+    "categoria": "entradas",
+    "nome": "Torradas Amanteigadas",
+    "tempo": "15min",
+    "ingredientes": [
+      "6 fatias de pão de forma ou baguete",
+      "2 colheres (sopa) de manteiga com sal (ou mais, a gosto)",
+      "1 dente de alho amassado (opcional)",
+      "Salsinha picada a gosto"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 180 °C.",
+      "Misture a manteiga, o alho e a salsinha para formar a pasta.",
+      "Espalhe a mistura uniformemente sobre as fatias de pão.",
+      "Leve ao forno por 10 a 12 minutos ou até dourar levemente e ficar crocante.",
+      "Sirva quente como entrada ou acompanhamento."
+    ],
+    "src": "/receitas/torradas_amanteigadas.png"
+  },
+  {
+    "link": "mini_coxinhas",
+    "categoria": "entradas",
+    "nome": "Mini Coxinhas",
+    "tempo": "2h",
+    "ingredientes": [
+      "500 g de peito de frango cozido e desfiado",
+      "2 xícaras (chá) de caldo do cozimento do frango",
+      "2 xícaras (chá) de farinha de trigo",
+      "1 colher (sopa) de manteiga",
+      "1 cebola pequena picada",
+      "Sal e pimenta a gosto",
+      "Ovos e farinha de rosca para empanar",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o frango desfiado na manteiga, temperando a gosto. Reserve.",
+      "Em uma panela, ferva o caldo do frango, adicione sal e a manteiga.",
+      "Despeje a farinha de trigo de uma só vez, mexendo vigorosamente até formar uma massa lisa e soltar do fundo da panela.",
+      "Transfira a massa para uma superfície limpa e deixe esfriar um pouco antes de sovar.",
+      "Modele as coxinhas no formato tradicional, recheando com o frango desfiado reservado.",
+      "Passe cada coxinha nos ovos batidos e depois na farinha de rosca.",
+      "Frite em óleo quente (180 °C) até dourar por completo e escorra em papel toalha."
+    ],
+    "src": "/receitas/mini_coxinhas.png"
+  },
+  {
+    "link": "arancini",
+    "categoria": "entradas",
+    "nome": "Arancini",
+    "tempo": "3h",
+    "ingredientes": [
+      "2 xícaras (chá) de risoto frio (pode ser de açafrão ou queijo)",
+      "50 g de queijo mussarela em cubos (para o recheio)",
+      "1 ovo batido",
+      "Farinha de rosca para empanar",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": [
+      "Pegue pequenas porções do risoto frio e modele bolinhas, abrindo um espaço no centro.",
+      "Coloque um cubinho de queijo mussarela no centro de cada bolinha e feche, modelando novamente para que fique bem uniforme.",
+      "Passe cada bolinha no ovo batido e, em seguida, na farinha de rosca, certificando-se de cobrir bem todos os lados.",
+      "Frite em óleo quente até ficarem douradas e com uma casquinha crocante.",
+      "Escorra em papel toalha para remover o excesso de óleo e sirva em seguida, enquanto o queijo ainda está derretendo."
+    ],
+    "src": "/receitas/arancini.png"
+  },
+  {
+    "link": "brusquetas",
+    "categoria": "entradas",
+    "nome": "Brusquetas",
+    "tempo": "30min",
+    "ingredientes": [
+      "1 baguete em fatias diagonais",
+      "2 tomates maduros picados (sem sementes)",
+      "2 colheres (sopa) de azeite de oliva extra virgem",
+      "1 dente de alho amassado",
+      "Manjericão fresco picado",
+      "Sal e pimenta do reino a gosto"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 200 °C.",
+      "Coloque as fatias de pão em uma assadeira e leve ao forno rapidamente até ficarem levemente douradas e crocantes.",
+      "Em uma tigela, misture os tomates picados, azeite, alho, manjericão, sal e pimenta.",
+      "Retire as fatias de pão do forno e, se desejar, esfregue um dente de alho nas torradinhas para um sabor mais intenso.",
+      "Cubra cada fatia de pão com a mistura de tomate e sirva imediatamente."
+    ],
+    "src": "/receitas/brusquetas.png"
+  },
+  {
+    "link": "pao_de_alho",
+    "categoria": "entradas",
+    "nome": "Pão de Alho",
+    "tempo": "15min",
+    "ingredientes": [
+      "1 pão francês ou baguete (suficiente para uma porção)",
+      "3 colheres (sopa) de maionese",
+      "2 colheres (sopa) de manteiga sem sal (em temperatura ambiente)",
+      "3 dentes de alho amassados",
+      "Salsinha e cebolinha (cheiro verde) picadas a gosto",
+      "Sal a gosto",
+      "Queijo mussarela ralado ou parmesão (para gratinar)"
+    ],
+    "modoPreparo": [
+      "Misture a maionese, manteiga, alho, salsinha, cebolinha e sal em uma tigela até formar um creme homogêneo.",
+      "Corte o pão sem separar totalmente as fatias, fazendo cortes profundos na vertical.",
+      "Espalhe generosamente o creme entre as fatias e cubra toda a parte superior do pão.",
+      "Polvilhe o queijo ralado por cima e adicione mais salsinha picada para a decoração.",
+      "Leve à churrasqueira (fogo brando) ou forno pré-aquecido a 200 °C por cerca de 10 a 15 minutos, ou até que o queijo esteja derretido e dourado."
+    ],
+    "src": "/receitas/pao_de_alho.png"
+  },
+  {
+    "link": "parmegiana",
+    "categoria": "pratos_principais",
+    "nome": "Parmegiana",
+    "tempo": "50min",
+    "ingredientes": [
+      "1 bife de filé (carne) ou peito de frango",
+      "1/4 xícara (chá) de farinha de rosca",
+      "1 ovo batido",
+      "1/3 xícara (chá) de molho de tomate (passata)",
+      "50 g de queijo mussarela fatiado",
+      "1 fatia de presunto (opcional)",
+      "Sal, pimenta do reino e orégano a gosto",
+      "Óleo para fritar",
+      "Acompanhamentos: Arroz branco e Batata frita",
+      "Salsinha picada (para finalização)"
+    ],
+    "modoPreparo": [
+      "Tempere o bife com sal e pimenta.",
+      "Passe o bife no ovo batido e depois na farinha de rosca, pressionando bem para empanar.",
+      "Frite o bife em óleo quente até dourar dos dois lados. Escorra em papel toalha.",
+      "Em um refratário individual, coloque uma camada fina de molho de tomate no fundo.",
+      "Disponha o bife frito, cubra com mais molho, a fatia de presunto (se usar) e finalize com as fatias de mussarela e orégano.",
+      "Leve ao forno pré-aquecido a 200 °C por 10 minutos para que o queijo derreta e gratine levemente.",
+      "Sirva o bife à parmegiana quente, acompanhado de arroz branco e batata frita, finalizando com salsinha picada sobre o arroz."
+    ],
+    "src": "/receitas/parmegiana.png"
+  },
+  {
+    "link": "estrogonofe",
+    "categoria": "pratos_principais",
+    "nome": "Estrogonofe",
+    "tempo": "45min",
+    "ingredientes": [
+      "500 g de peito de frango ou carne (mignon/alcatra) em tiras",
+      "1 cebola picada",
+      "2 colheres (sopa) de ketchup",
+      "1 colher (sopa) de mostarda",
+      "1 caixinha de creme de leite (sem soro)",
+      "Sal e pimenta a gosto",
+      "Azeite ou manteiga para refogar",
+      "Cogumelos fatiados (opcional)"
+    ],
+    "modoPreparo": [
+      "Em uma panela, aqueça o azeite/manteiga e refogue a cebola até ficar transparente.",
+      "Adicione a carne (frango ou bovina) e cozinhe até dourar e secar a água que soltar.",
+      "Tempere com sal e pimenta.",
+      "Junte o ketchup e a mostarda, misturando bem para incorporar.",
+      "Se for usar, adicione os cogumelos e cozinhe por mais 2 minutos.",
+      "Desligue o fogo e incorpore o creme de leite, misturando rapidamente para não talhar.",
+      "Sirva imediatamente com arroz branco e batata palha."
+    ],
+    "src": "/receitas/estrogonofe.png"
+  },
+  {
+    "link": "nhoque",
+    "categoria": "pratos_principais",
+    "nome": "Nhoque",
+    "tempo": "1h 15min",
+    "ingredientes": [
+      "1 kg de batatas (tipo Asterix ou Baroa)",
+      "1 ovo",
+      "1 xícara (chá) de farinha de trigo (aproximadamente)",
+      "Sal a gosto",
+      "Molho de tomate caseiro (em pedaços) para servir",
+      "Queijo parmesão ralado (para finalização)",
+      "Folhas de Manjericão fresco (para decoração)",
+      "Pimenta do reino moída"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas com casca até ficarem macias. Descasque-as ainda quentes e amasse bem, utilizando um espremedor.",
+      "Espere a massa de batata esfriar. Adicione o ovo e o sal, misturando levemente.",
+      "Acrescente a farinha de trigo aos poucos, amassando com as mãos até formar uma massa firme, mas macia, que não grude nas mãos.",
+      "Modele rolinhos longos, corte em pedaços pequenos e cozinhe em água fervente com sal.",
+      "O nhoque estará pronto quando subir à superfície da água.",
+      "Retire o nhoque com uma escumadeira, misture delicadamente com o molho de tomate quente.",
+      "Sirva imediatamente, finalizando com queijo parmesão ralado, pimenta do reino e folhas frescas de manjericão."
+    ],
+    "src": "/receitas/nhoque.png"
+  },
+  {
+    "link": "salmao_grelhado",
+    "categoria": "pratos_principais",
+    "nome": "Salmão Grelhado",
+    "tempo": "15min",
+    "ingredientes": [
+      "2 filés de salmão (com ou sem pele)",
+      "1 colher (sopa) de azeite de oliva",
+      "Sal e pimenta do reino a gosto",
+      "Suco de 1/2 limão (siciliano, de preferência)"
+    ],
+    "modoPreparo": [
+      "Tempere os filés de salmão com sal, pimenta e suco de limão.",
+      "Aqueça uma frigideira antiaderente (ou chapa) com azeite em fogo médio-alto.",
+      "Grelhe o salmão com a pele para baixo por cerca de 3–4 minutos (se tiver pele) ou 3 minutos (se não tiver pele).",
+      "Vire o filé e grelhe o outro lado por mais 3–4 minutos, dependendo da espessura e do ponto desejado.",
+      "Sirva imediatamente com legumes cozidos no vapor ou arroz."
+    ],
+    "src": "/receitas/salmao_grelhado.png"
+  },
+  {
+    "link": "costela",
+    "categoria": "pratos_principais",
+    "nome": "Costela",
+    "tempo": "3h",
+    "ingredientes": ["1 kg de costela bovina em pedaços", "1 cebola grande fatiada", "2 dentes de alho picados", "Sal grosso e pimenta a gosto"],
+    "modoPreparo": [
+      "Em uma panela de pressão grande, coloque um fio de óleo.",
+      "Intercale camadas de costela e cebola fatiada.",
+      "Tempere cada camada com sal grosso e alho picado.",
+      "Não é necessário adicionar água, a cebola e a carne soltarão líquido suficiente.",
+      "Tampe a panela e cozinhe em fogo médio por 50 minutos a 1 hora após pegar pressão.",
+      "Deixe a pressão sair naturalmente, abra a panela e sirva quente com o caldo formado no cozimento."
+    ],
+    "src": "/receitas/costela.png"
+  },
+  {
+    "link": "pizza_caseira",
+    "categoria": "pratos_principais",
+    "nome": "Pizza Caseira",
+    "tempo": "2h",
+    "ingredientes": [
+      "500 g de farinha de trigo",
+      "10 g de fermento biológico seco",
+      "1 colher (chá) de açúcar",
+      "1 colher (chá) de sal",
+      "250 ml de água morna",
+      "2 colheres (sopa) de azeite",
+      "Molho de tomate, queijo mussarela e recheio a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o fermento, o açúcar e a água morna em um recipiente e deixe descansar por 5 minutos.",
+      "Em uma tigela grande, adicione a farinha, o sal e o azeite.",
+      "Despeje a mistura de fermento e sove até formar uma massa lisa e homogênea.",
+      "Cubra a massa e deixe crescer em local aquecido por pelo menos 1 hora ou até dobrar de volume.",
+      "Abra a massa em formato de disco, espalhe o molho, o queijo e o recheio de sua preferência.",
+      "Asse em forno pré-aquecido a 220 °C por cerca de 20 minutos ou até a massa estar dourada e o queijo derretido."
+    ],
+    "src": "/receitas/pizza_caseira.png"
+  },
+  {
+    "link": "hamburguer_caseiro",
+    "categoria": "pratos_principais",
+    "nome": "Hambúrguer Caseiro",
+    "tempo": "40min",
+    "ingredientes": [
+      "500 g de carne moída (acém, patinho ou blend de carnes)",
+      "Sal e pimenta do reino a gosto",
+      "Pão de hambúrguer, queijo (cheddar, mussarela, etc.) e acompanhamentos (alface, tomate, bacon, picles) a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a carne com sal e pimenta, sem sovar demais. Modele discos de 1,5 a 2 cm de espessura.",
+      "Aqueça uma frigideira (ou chapa) e grelhe o hambúrguer por 3–4 minutos de cada lado para um ponto médio.",
+      "Nos últimos minutos, coloque a fatia de queijo sobre a carne para derreter.",
+      "Se desejar, passe a manteiga no pão e aqueça levemente na frigideira.",
+      "Monte o lanche com a carne, o queijo derretido e os acompanhamentos desejados."
+    ],
+    "src": "/receitas/hamburguer_caseiro.png"
+  },
+  {
+    "link": "feijoada",
+    "categoria": "pratos_principais",
+    "nome": "Feijoada",
+    "tempo": "3h",
+    "ingredientes": [
+      "1 kg de feijão preto",
+      "500 g de carne seca dessalgada",
+      "250 g de costelinha de porco salgada",
+      "200 g de paio (linguiça defumada)",
+      "200 g de linguiça calabresa defumada",
+      "1 cebola grande picada",
+      "4 dentes de alho amassados",
+      "Folhas de louro",
+      "Sal e pimenta do reino a gosto",
+      "Óleo para refogar",
+      "Acompanhamentos: Arroz branco, Couve Refogada, Farofa, Vinagrete e Fatias de Laranja"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão e as carnes salgadas de molho em água por pelo menos 12 horas, trocando a água algumas vezes.",
+      "Cozinhe o feijão com as carnes salgadas e as folhas de louro em panela de pressão por cerca de 40 minutos.",
+      "Em outra panela, refogue a cebola e o alho no óleo. Adicione o paio e a calabresa fatiados, e frite por alguns minutos.",
+      "Junte o refogado ao feijão, adicione sal e pimenta a gosto e cozinhe em fogo brando por mais 20 minutos ou até engrossar o caldo.",
+      "Sirva quente com os acompanhamentos."
+    ],
+    "src": "/receitas/feijoada.png"
+  },
+  {
+    "link": "lasanha_a_bolonhesa",
+    "categoria": "pratos_principais",
+    "nome": "Lasanha à Bolonhesa",
+    "tempo": "1h 30min",
+    "ingredientes": [
+      "500 g de massa para lasanha (seca ou fresca)",
+      "500 g de carne moída",
+      "1 cebola picada e 2 dentes de alho amassados",
+      "800 g de molho de tomate (passata)",
+      "500 g de queijo mussarela fatiado",
+      "250 g de presunto fatiado (opcional)",
+      "Para o Molho Branco: 50g de manteiga, 50g de farinha de trigo, 500ml de leite, noz-moscada e sal",
+      "Queijo parmesão ralado para finalizar",
+      "Salsinha ou Manjericão fresco (para decoração)"
+    ],
+    "modoPreparo": [
+      "Prepare o Molho à Bolonhesa: Refogue a cebola e o alho. Adicione a carne moída e frite até dourar. Junte o molho de tomate, sal e cozinhe por 15 minutos.",
+      "Prepare o Molho Branco (Béchamel): Derreta a manteiga, adicione a farinha e mexa rapidamente. Acrescente o leite quente aos poucos, mexendo até engrossar. Tempere com sal e noz-moscada.",
+      "Montagem: Em um refratário, intercale camadas na seguinte ordem: molho bolonhesa, massa, presunto, mussarela, molho branco. Repita as camadas.",
+      "Finalize com uma camada de molho branco e polvilhe queijo parmesão ralado por cima.",
+      "Leve ao forno pré-aquecido a 200 °C por 30 a 40 minutos ou até gratinar. Decore com a folha de salsinha/manjericão antes de servir."
+    ],
+    "src": "/receitas/lasanha_a_bolonhesa.png"
+  },
+  {
+    "link": "pudim_de_leite",
+    "categoria": "sobremesas",
+    "nome": "Pudim de Leite",
+    "tempo": "4h",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "2 medidas (utilize a lata de condensado) de leite integral",
+      "3 ovos grandes",
+      "1 xícara (chá) de açúcar (para a calda)"
+    ],
+    "modoPreparo": [
+      "Para a calda: Derreta o açúcar em uma forma de pudim (com furo central) até formar um caramelo dourado. Espalhe por toda a lateral da forma.",
+      "Para o pudim: Bata no liquidificador o leite condensado, o leite e os ovos até obter uma mistura homogênea.",
+      "Despeje a mistura cuidadosamente na forma caramelizada.",
+      "Cubra a forma com papel alumínio e asse em banho-maria (com água já quente) em forno pré-aquecido a 180 °C por cerca de 1 hora.",
+      "Deixe esfriar completamente e leve à geladeira por, no mínimo, 3 horas antes de desenformar."
+    ],
+    "src": "/receitas/pudim_de_leite.png"
+  },
+  {
+    "link": "mousse_de_chocolate",
+    "categoria": "sobremesas",
+    "nome": "Mousse de Chocolate",
+    "tempo": "2h 30min",
+    "ingredientes": [
+      "200 g de chocolate meio amargo de boa qualidade",
+      "3 ovos (claras e gemas separadas)",
+      "3 colheres (sopa) de açúcar",
+      "1 caixinha de creme de leite",
+      "Cacau ou chocolate em pó (para a cobertura)",
+      "Folha de Hortelã fresca (para decorar)"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria ou no micro-ondas, em intervalos de 30 segundos. Misture bem com o creme de leite e as gemas.",
+      "Em outra tigela, bata as claras em neve. Quando estiverem firmes, adicione o açúcar aos poucos, batendo até formar um merengue brilhante.",
+      "Incorpore delicadamente o merengue (claras em neve) à mistura de chocolate, fazendo movimentos de baixo para cima para não perder o ar.",
+      "Distribua em taças ou um refratário e leve à geladeira por, no mínimo, 2 horas para firmar.",
+      "Antes de servir, finalize polvilhando o cacau/chocolate em pó por cima e decore com uma folha fresca de hortelã."
+    ],
+    "src": "/receitas/mousse_de_chocolate.png"
+  },
+  {
+    "link": "torta_de_limao",
+    "categoria": "sobremesas",
+    "nome": "Torta de Limão",
+    "tempo": "4h",
+    "ingredientes": [
+      "Para a Base: 200 g de biscoito maisena triturado, 100 g de manteiga sem sal derretida.",
+      "Para o Recheio: 1 lata de leite condensado, 1/2 xícara (chá) de suco de limão (cerca de 3 limões), 1 caixinha de creme de leite.",
+      "Raspas de limão para decorar"
+    ],
+    "modoPreparo": [
+      "Prepare a Base: Misture o biscoito triturado com a manteiga derretida. Forre o fundo e as laterais de uma forma de fundo removível com esta massa.",
+      "Asse a base a 180 °C por 10 minutos.",
+      "Prepare o Recheio: No liquidificador ou em uma tigela, misture o leite condensado, o creme de leite e o suco de limão até ficar um creme consistente.",
+      "Despeje o recheio sobre a base fria e leve à geladeira por, no mínimo, 3 horas para firmar.",
+      "Decore com raspas de limão antes de servir."
+    ],
+    "src": "/receitas/torta_de_limao.png"
+  },
+  {
+    "link": "brownies",
+    "categoria": "sobremesas",
+    "nome": "Brownies",
+    "tempo": "35min",
+    "ingredientes": [
+      "200 g de chocolate meio amargo",
+      "3/4 xícara (chá) de manteiga sem sal",
+      "1 xícara (chá) de açúcar (cristal ou refinado)",
+      "3 ovos grandes",
+      "1/2 xícara (chá) de farinha de trigo",
+      "1 pitada de sal"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate com a manteiga em banho-maria ou no micro-ondas. Misture até ficar homogêneo.",
+      "Adicione o açúcar à mistura de chocolate e misture bem.",
+      "Acrescente os ovos, um de cada vez, batendo após cada adição.",
+      "Peneire a farinha de trigo e o sal sobre a massa e misture delicadamente, apenas até incorporar (não bata demais).",
+      "Despeje em uma forma untada e forrada com papel manteiga.",
+      "Asse em forno pré-aquecido a 180 °C por 25 a 30 minutos. O centro deve estar firme, mas levemente úmido (teste do palito: deve sair sujo)."
+    ],
+    "src": "/receitas/brownies.png"
+  },
+  {
+    "link": "cupcakes",
+    "categoria": "sobremesas",
+    "nome": "Cupcakes",
+    "tempo": "1h",
+    "ingredientes": [
+      "2 xícaras (chá) de farinha de trigo",
+      "1 xícara (chá) de açúcar",
+      "1/2 xícara (chá) de manteiga sem sal",
+      "2 ovos grandes",
+      "1/2 xícara (chá) de leite integral",
+      "1 colher (sopa) de fermento em pó",
+      "Essência de baunilha a gosto",
+      "Cobertura e confeitos a gosto"
+    ],
+    "modoPreparo": [
+      "Bata a manteiga com o açúcar e os ovos em uma batedeira até obter um creme claro e fofo.",
+      "Adicione a farinha, o leite e a essência de baunilha, misturando até a massa ficar homogênea.",
+      "Por último, misture delicadamente o fermento.",
+      "Distribua a massa em forminhas de cupcake (preenchendo 2/3 da capacidade).",
+      "Asse em forno pré-aquecido a 180 °C por cerca de 20 a 25 minutos (faça o teste do palito).",
+      "Deixe esfriar completamente antes de decorar com a cobertura de sua preferência."
+    ],
+    "src": "/receitas/cupcakes.png"
+  },
+  {
+    "link": "cocadas",
+    "categoria": "sobremesas",
+    "nome": "Cocadas",
+    "tempo": "1h",
+    "ingredientes": [
+      "2 xícaras (chá) de coco ralado fresco ou de pacote",
+      "1 xícara (chá) de açúcar",
+      "1/2 xícara (chá) de leite condensado",
+      "Cravo ou canela em pau (opcional)"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes (exceto o cravo/canela) em uma panela de fundo grosso.",
+      "Leve ao fogo baixo, mexendo sempre para não queimar.",
+      "Cozinhe até a mistura começar a desgrudar do fundo da panela, atingindo o ponto de calda grossa.",
+      "Retire do fogo e despeje a massa sobre uma superfície untada (mármore ou forma).",
+      "Com a massa ainda morna, corte em pedaços quadrados ou em formato de losango.",
+      "Deixe esfriar e endurecer completamente antes de servir."
+    ],
+    "src": "/receitas/cocadas.png"
+  },
+  {
+    "link": "pave",
+    "categoria": "sobremesas",
+    "nome": "Pavê",
+    "tempo": "4h",
+    "ingredientes": [
+      "1 pacote de bolacha maisena (ou de chocolate)",
+      "1 lata de leite condensado",
+      "2 xícaras (chá) de leite integral",
+      "2 colheres (sopa) de amido de milho",
+      "2 gemas",
+      "1 caixinha de creme de leite (sem soro)",
+      "Chocolate ralado ou em pó (para decorar)"
+    ],
+    "modoPreparo": [
+      "Prepare o Creme: Em uma panela, misture o leite condensado, o leite, o amido de milho dissolvido em um pouco de leite e as gemas peneiradas.",
+      "Cozinhe em fogo médio, mexendo sempre, até o creme engrossar.",
+      "Retire do fogo e adicione o creme de leite, misturando bem.",
+      "Montagem: Em um refratário, faça camadas, alternando o creme e as bolachas umedecidas no leite ou calda de sua preferência.",
+      "Finalize com uma camada de creme.",
+      "Leve à geladeira por, no mínimo, 3 horas para firmar. Decore com chocolate ralado antes de servir."
+    ],
+    "src": "/receitas/pave.png"
+  },
+  {
+    "link": "brigadeirao",
+    "categoria": "sobremesas",
+    "nome": "Brigadeirão",
+    "tempo": "4h",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite (sem soro)",
+      "1 xícara (chá) de chocolate em pó (não achocolatado)",
+      "3 ovos grandes",
+      "1 colher (sopa) de manteiga",
+      "Chocolate granulado (para decorar)"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador o leite condensado, o creme de leite, o chocolate em pó, os ovos e a manteiga até obter uma mistura homogênea e sem grumos.",
+      "Despeje a mistura em uma forma de pudim (com furo central) untada com manteiga e polvilhada com chocolate em pó.",
+      "Leve ao forno médio (180 °C), em banho-maria, por cerca de 40 a 50 minutos.",
+      "Deixe esfriar completamente, leve à geladeira por 3 horas e desenforme.",
+      "Cubra com chocolate granulado antes de servir."
+    ],
+    "src": "/receitas/brigadeirao.png"
+  },
+  {
+    "link": "suco_de_laranja",
+    "categoria": "bebidas",
+    "nome": "Suco de Laranja",
+    "tempo": "10min",
+    "ingredientes": ["4 laranjas (de preferência Pêra ou Bahia)", "Açúcar ou mel a gosto (opcional)", "Gelo a gosto"],
+    "modoPreparo": [
+      "Esprema as laranjas e coe o suco (se preferir sem os gomos/polpa).",
+      "Adicione açúcar ou mel, se desejar, e mexa bem.",
+      "Sirva em um copo alto com bastante gelo."
+    ],
+    "src": "/receitas/suco_de_laranja.png"
+  },
+  {
+    "link": "smoothie_de_manga_e_iogurte",
+    "categoria": "bebidas",
+    "nome": "Smoothie de Manga e Iogurte",
+    "tempo": "10min",
+    "ingredientes": ["1 manga madura picada e congelada", "1 copo de iogurte natural integral", "1 colher (sopa) de mel ou adoçante (opcional)", "Gelo a gosto"],
+    "modoPreparo": [
+      "Coloque a manga congelada, o iogurte, o mel e o gelo (se a manga não estiver muito congelada) no liquidificador.",
+      "Bata em velocidade alta até obter uma mistura cremosa e homogênea.",
+      "Sirva imediatamente."
+    ],
+    "src": "/receitas/smoothie_de_manga_e_iogurte.png"
+  },
+  {
+    "link": "smoothie_de_banana_e_frutas_vermelhas",
+    "categoria": "bebidas",
+    "nome": "Smoothie de Banana e Frutas Vermelhas",
+    "tempo": "5min",
+    "ingredientes": [
+      "1 banana madura (picada e congelada)",
+      "1 xícara (chá) de frutas vermelhas congeladas (morango, mirtilo, amora)",
+      "1 copo de iogurte natural ou leite vegetal (coco, amêndoa, etc.)",
+      "Mel ou açúcar a gosto (opcional)"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata em velocidade alta até que o smoothie fique homogêneo, cremoso e sem pedaços de fruta.",
+      "Sirva imediatamente bem gelado."
+    ],
+    "src": "/receitas/smoothie_de_banana_e_frutas_vermelhas.png"
+  },
+  {
+    "link": "milkshake_de_chocolate",
+    "categoria": "bebidas",
+    "nome": "Milkshake de Chocolate",
+    "tempo": "5min",
+    "ingredientes": [
+      "3 bolas grandes de sorvete de chocolate",
+      "1/2 copo de leite integral gelado",
+      "2 colheres (sopa) de calda de chocolate",
+      "Chantilly e raspas de chocolate (para decorar, opcional)"
+    ],
+    "modoPreparo": [
+      "Bata o sorvete, o leite e a calda de chocolate no liquidificador até ficar com a consistência cremosa de milkshake.",
+      "Sirva em um copo alto. Se desejar, decore a borda do copo com calda de chocolate e finalize com chantilly e raspas."
+    ],
+    "src": "/receitas/milkshake_de_chocolate.png"
+  },
+  {
+    "link": "milkshake_de_oreo",
+    "categoria": "bebidas",
+    "nome": "Milkshake de Oreo",
+    "tempo": "5min",
+    "ingredientes": [
+      "3 bolas grandes de sorvete de baunilha ou creme",
+      "4 biscoitos Oreo (ou similar)",
+      "1/2 copo de leite integral gelado",
+      "Calda de chocolate (para decorar o copo)",
+      "Chantilly de chocolate (para a cobertura)",
+      "1 biscoito Oreo inteiro (para decorar)"
+    ],
+    "modoPreparo": [
+      "Decore a parte interna do copo com a calda de chocolate.",
+      "Bata no liquidificador o sorvete, o leite e os biscoitos (quebrados) até obter um creme homogêneo. Se preferir mais grosso, use menos leite.",
+      "Sirva no copo decorado e finalize com uma generosa porção de chantilly de chocolate e um biscoito Oreo inteiro por cima."
+    ],
+    "src": "/receitas/milkshake_de_oreo.png"
+  },
+  {
+    "link": "pink_lemonade",
+    "categoria": "bebidas",
+    "nome": "Pink Lemonade",
+    "tempo": "10min",
+    "ingredientes": [
+      "1 xícara (chá) de suco de limão-siciliano espremido",
+      "1/2 xícara (chá) de suco de cranberry, groselha ou morango (para a cor)",
+      "1 litro de água gelada (com ou sem gás)",
+      "Açúcar ou adoçante a gosto",
+      "Rodelas de limão e gelo para servir"
+    ],
+    "modoPreparo": [
+      "Em uma jarra, misture o suco de limão, o suco de cranberry/groselha e a água.",
+      "Adicione açúcar ou adoçante a gosto e mexa bem para dissolver.",
+      "Sirva em copos com bastante gelo e decore com rodelas de limão."
+    ],
+    "src": "/receitas/pink_lemonade.png"
+  },
+  {
+    "link": "limonada_suica",
+    "categoria": "bebidas",
+    "nome": "Limonada Suíça",
+    "tempo": "5min",
+    "ingredientes": [
+      "3 limões Taiti (com casca)",
+      "2 copos (300ml) de água gelada",
+      "2 doses de leite condensado (ou a gosto)",
+      "Gelo a gosto",
+      "Fatia de Limão (para decorar o copo)"
+    ],
+    "modoPreparo": [
+      "Lave bem os limões e corte-os em quatro partes, removendo a parte branca central (para não amargar).",
+      "No liquidificador, coloque os limões, a água gelada e o leite condensado. Bata por apenas 15 segundos.",
+      "Coe a mistura em uma jarra, apertando o bagaço dos limões com uma colher para extrair todo o suco.",
+      "Sirva imediatamente em copos com bastante gelo e decore a borda com uma fatia de limão."
+    ],
+    "src": "/receitas/limonada_suica.png"
+  }
+]
