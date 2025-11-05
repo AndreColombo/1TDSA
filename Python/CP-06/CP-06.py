@@ -4,6 +4,7 @@ import oracledb
 # André Colombo - rm563112
 # José Diogo - rm562341
 
+
 def get_connection():
     try:
         conn = oracledb.connect(
@@ -11,12 +12,13 @@ def get_connection():
             password="180507",
             host="oracle.fiap.com.br",
             port="1521",
-            service_name="orcl"
+            service_name="orcl",
         )
         print("Conexão com Oracle DB realizada!")
     except Exception as e:
         print(f"Erro ao obter a conexão: {e}")
     return conn
+
 
 def inserir(name, temp, temp_min, temp_max):
     print("\n--- Inserindo cidade na tabela ---")
@@ -49,6 +51,7 @@ def inserir(name, temp, temp_min, temp_max):
         if conn:
             conn.close()
 
+
 def consultar_cidade(cidade):
     url = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid=0bb4ab5f1e70e19db0dc58428460bf99&units=metric&lang=pt_br"
 
@@ -67,13 +70,22 @@ def consultar_cidade(cidade):
         dados_cidade = response.json()
         print("\n--- Clima encontrado! ---")
         if "erro" not in dados_cidade:
-            name, temp, temp_min, temp_max = dados_cidade.get('name'), dados_cidade.get('main').get('temp'), dados_cidade.get('main').get('temp_min'), dados_cidade.get('main').get('temp_max')
-            print(f'Cidade: {name} \nTemperatura Atual: {temp} \nTemperatura Mínima: {temp_min} \nTemperatura Máxima: {temp_max}')
+            name, temp, temp_min, temp_max = (
+                dados_cidade.get("name"),
+                dados_cidade.get("main").get("temp"),
+                dados_cidade.get("main").get("temp_min"),
+                dados_cidade.get("main").get("temp_max"),
+            )
+            print(
+                f"Cidade: {name} \nTemperatura Atual: {temp} \nTemperatura Mínima: {temp_min} \nTemperatura Máxima: {temp_max}"
+            )
             return name, temp, temp_min, temp_max
         else:
             print(f"Erro: A cidade {cidade} não foi encontrado!")
     else:
-        print(f"\nErro ao buscar a cidade {cidade}. Status code: {response.status_code}")
+        print(
+            f"\nErro ao buscar a cidade {cidade}. Status code: {response.status_code}"
+        )
         print("Verifique se o nome da cidade foi digitado corretamente!")
 
 
@@ -87,6 +99,7 @@ def main():
                 inserir(name, temp, temp_min, temp_max)
             case 2:
                 return False
+
 
 # Programa Principal
 main()
